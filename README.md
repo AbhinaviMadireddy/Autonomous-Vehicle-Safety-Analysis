@@ -12,26 +12,23 @@ evaluated through analysis of data obtained during field-testing.
 **Dataset description:**
 
 **mp1_av_disengagement.csv**
-Month - Month and year when the disengagement happened
-Car - ID of the AV
-Location - Where the car was when the disengagement happened
-Weather- Weather conditions when the disengagement happened
-TypeOfTrigger - Whether the disengagement was automatic (decision taken by AV) or
-manual (decision taken by human driver)
-ReactionTime - Time taken, in seconds, by the human driver to take control of the car
-after an automatic trigger.
-NOTE: ReactionTime is not given for manual disengagements since
-it does not involve a trigger by the AV.
-Cause - Reason for the disengagement
+Month - Month and year when the disengagement happened.<br/>
+Car - ID of the AV.<br/>
+Location - Where the car was when the disengagement happened.<br/>
+Weather- Weather conditions when the disengagement happened.<br/>
+TypeOfTrigger - Whether the disengagement was automatic (decision taken by AV) or manual (decision taken by human driver).<br/>
+ReactionTime - Time taken, in seconds, by the human driver to take control of the car after an automatic trigger.<br/>
+NOTE: ReactionTime is not given for manual disengagements since it does not involve a trigger by the AV.<br/>
+Cause - Reason for the disengagement.<br/>
 
 **mp1_av_totalmiles.csv**
 
-Month - Month and year of AV testing
-Car - ID of the AV
-Miles driven - Total number of miles driven by the AV during the given month
-Total number of disengagements - Number of disengagements during the given month
-Number of automatic disengagements - Number of disengagements where the AV decided to give control to the human driver
-Number of manual disengagements - Number of times the human driver decided to take control of the AV
+Month - Month and year of AV testing.<br/>
+Car - ID of the AV.<br/>
+Miles driven - Total number of miles driven by the AV during the given month.<br/>
+Total number of disengagements - Number of disengagements during the given month.<br/>
+Number of automatic disengagements - Number of disengagements where the AV decided to give control to the human driver.<br/>
+Number of manual disengagements - Number of times the human driver decided to take control of the AV.<br/>
 
 
 
